@@ -15,11 +15,11 @@
 }
 
 body {
-	margin: 30px auto 20px;
+	margin: 40px auto 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	align-items: flex-start;
+	align-items: center;
 	background-color: var(--main-bg-color);
 	position: relative;
 	transition: all ease 0.2s;
@@ -36,7 +36,7 @@ img {
 	max-width: 16em;
 	display: flex;
 	justify-content: center;
-	align-items: start;
+	align-items: center;
 	background-color: var(--main-bg-color);
 	background-position: center center;
 	background-size: cover;
@@ -66,7 +66,7 @@ img {
 
 #logo:hover {
 	opacity: 0.3;
-	transform: scale(1.1);
+	transform: scale(3.1);
 }
 
 @media screen and (max-width:750px) {
