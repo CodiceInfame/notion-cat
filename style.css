@@ -19,7 +19,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 	background-color: var(--main-bg-color);
 	position: relative;
 	transition: all ease 0.2s;
